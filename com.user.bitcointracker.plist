@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.user.bitcointracker</string> <!-- Unique label -->
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/bin/python3</string> <!-- Python interpreter path -->
+        <string>/Users/parveend./Desktop/PycharmProjects/bitcoin_tracker.py</string> <!-- Full path to your script -->
+    </array>
+    <key>StartInterval</key>
+    <integer>3600</integer> <!-- Runs every 3600 seconds (1 hour) -->
+    <key>RunAtLoad</key>
+    <true/>
+</dict>
+</plist>
