@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProjectConfig>
+    <Tasks>
+        <!-- Task for fetching Bitcoin data -->
+        <Task>
+            <Name>FetchBitcoinData</Name>
+            <ScriptPath>/Users/parveend./Desktop/VSCode/DataManagement_Coursework2</ScriptPath>
+            <Frequency>
+                <Unit>Hours</Unit>
+                <Value>1</Value>
+            </Frequency>
+            <Description>Fetches Bitcoin data from the API and stores it in the database.</Description>
+        </Task>
+        <!-- Task for plotting Bitcoin data -->
+        <Task>
+            <Name>PlotBitcoinData</Name>
+            <ScriptPath>/Users/parveend./Desktop/VSCode/DataManagement_Coursework2</ScriptPath>
+            <Trigger>
+                <Condition>OnDemand</Condition>
+            </Trigger>
+            <Description>Generates a plot of Bitcoin price trends from the database.</Description>
+        </Task>
+    </Tasks>
+</ProjectConfig>
