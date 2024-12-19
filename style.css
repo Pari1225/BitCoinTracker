@@ -1,0 +1,54 @@
+/* General styling for the entire XML document */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 20px;
+}
+
+/* Styling the root element */
+ProjectConfig {
+    display: block;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+/* Styling task elements */
+Task {
+    display: block;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #007bff;
+    background-color: #e9f5ff;
+}
+
+/* Styling specific sub-elements */
+Task > Name {
+    font-weight: bold;
+    color: #0056b3;
+    display: block;
+    margin-bottom: 5px;
+}
+
+Task > ScriptPath {
+    font-style: italic;
+    color: #555;
+    margin-left: 10px;
+}
+
+Task > Frequency, Task > Trigger, Task > Description {
+    margin-left: 15px;
+}
+
+/* Styling the Frequency element */
+Frequency > Unit {
+    color: #007bff;
+    font-weight: bold;
+}
+
+Frequency > Value {
+    color: #28a745;
+    font-weight: bold;
+}
