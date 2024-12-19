@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
 <ProjectConfig>
     <Tasks>
         <!-- Task for fetching Bitcoin data -->
         <Task>
             <Name>FetchBitcoinData</Name>
-            <ScriptPath>/Users/parveend./Desktop/VSCode/DataManagement_Coursework2</ScriptPath>
+            <ScriptPath>/Users/parveend./Desktop/VSCode/DataManagement_Coursework2/bitcoin_tracker.py</ScriptPath>
             <Frequency>
                 <Unit>Hours</Unit>
                 <Value>1</Value>
@@ -14,7 +15,7 @@
         <!-- Task for plotting Bitcoin data -->
         <Task>
             <Name>PlotBitcoinData</Name>
-            <ScriptPath>/Users/parveend./Desktop/VSCode/DataManagement_Coursework2</ScriptPath>
+            <ScriptPath>/Users/parveend./Desktop/VSCode/DataManagement_Coursework2/plotbitcoin.py</ScriptPath>
             <Trigger>
                 <Condition>OnDemand</Condition>
             </Trigger>
